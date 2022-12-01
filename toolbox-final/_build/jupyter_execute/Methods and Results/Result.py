@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Results
-
+# ## Results
 # It seems that the **Wolfgang Reitherman** is very productive
+
+# ![result](../result.png)
 
 # Now it's time to answer the original question. Which directors have the most inflation gross of average of each movie? To do this, I will make a new dataframe by merging **avg_inflation_gross_by_director** and **movie_count**
 
@@ -37,4 +38,12 @@ director_count_gross_plot = (
     .properties(title="Director Average per Movie (Adjusted for Inflation)")
 )
 director_count_gross_plot
+
+
+# ![Disneyland](../disney2.png)
+
+# In[ ]:
+
+
+
 

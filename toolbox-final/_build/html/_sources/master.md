@@ -4,4 +4,8 @@ In this analysis, I will be investigating Disney movie Directors to determine th
 Dataset description. The [data](https://data.world/kgarrett/disney-character-success-00-16) has been obtained from  (Links to an external site.) which follows [creativecommonds](https://creativecommons.org/licenses/by/4.0/) (Links to an external site.).
 
 
-![](https://disneyland.disney.go.com/en-ca/destinations/disneyland/)
+```{image} ../toolbox-final/disneylog.png
+:class: bg-primary mb-1
+:width: 200px
+:align: center
+```

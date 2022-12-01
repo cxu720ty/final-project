@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Methods
-# 
+# ## Methods
+# ![method](../method.png)
+
 # Since I am only interested in computing the themes with the most sets, I will need to use tables that contain information on movies total gross and disney director. This implies that I will need to use the **disney_movies_total_gross** and the **disney_director** tables.
 # 
 # However, before moving further, let us import the tables and do some basic visualizations.

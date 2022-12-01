@@ -371,9 +371,10 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="results">
+  <section id="results">
 <h1>Results<a class="headerlink" href="#results" title="Permalink to this headline">#</a></h1>
 <p>It seems that the <strong>Wolfgang Reitherman</strong> is very productive</p>
+<p><img alt="result" src="../_images/result.png" /></p>
 <p>Now it’s time to answer the original question. Which directors have the most inflation gross of average of each movie? To do this, I will make a new dataframe by merging <strong>avg_inflation_gross_by_director</strong> and <strong>movie_count</strong></p>
 <p>director_count_gross = avg_inflation_gross_by_director.merge(movie_count, left_on=’director’, right_on=’director’, how=’left’, indicator=True)
 director_count_gross  =director_count_gross.assign(director_avg_gross_per_movie=director_count_gross[‘inflation_adjusted_gross’] *director_count_gross[‘count’])
@@ -414,6 +415,7 @@ director_count_gross_max</p>
 </div>
 </div>
 </div>
+<p><img alt="Disneyland" src="../_images/disney2.png" /></p>
 </section>
 
     <script type="text/x-thebe-config">
